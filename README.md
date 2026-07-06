@@ -1,17 +1,13 @@
-# Crowell Family Adventure Guide v6
+# Crowell Family Adventure Guide V6.5 Final
 
-Flat GitHub Pages version.
+Flat GitHub upload version. Upload every file in this folder into the repo root.
 
-## Updates included
-- Cleaner top nav: Home, Today, Vegas, Zion, Safety, More.
-- Added Today page with simple daily cards.
-- Added More page for extra pages.
-- Added one-tap Google Maps buttons.
-- Added heat-safe/free/low-cost tags to Vegas and Shopping.
-- Improved Lincoln's Flight Confidence page.
-- Reduced page text so the site feels more like an app.
-- Return flight remains corrected to Saturday at 11:00 AM.
-- Shopping page and Vegas map are included.
+No assets folder is needed.
 
-## Upload instructions
-Upload every file in this ZIP to the root of the `trip` repo. This is the flat version, so images stay in the root folder. No assets folder is needed.
+Key corrections:
+- Cartoon adventure-book style retained.
+- Vegas Strip map rebuilt in cartoon style.
+- Flight home set for Saturday at 11:00 AM.
+- Lincoln wears Denver #15 jersey in illustrations.
+- Maddox wears a white Supreme shirt and is almost Scott's height.
+- Lindsay is shown with long brown hair and feminine appearance.
