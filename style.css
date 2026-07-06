@@ -641,8 +641,29 @@ footer a{text-decoration:none;font-weight:900;color:var(--green)}
 }
 
 
-/* Final rebuild: Vegas idea cards are clickable map links */
-.clickable-map-card{display:block;color:inherit;text-decoration:none;cursor:pointer}
-.clickable-map-card:hover{transform:translateY(-2px);box-shadow:0 14px 32px rgba(63,49,24,.18)}
-.clickable-map-card:focus-visible{outline:4px solid #b85c2b;outline-offset:4px}
-.tap-map-hint{margin-top:10px;font-size:.85rem;font-weight:900;color:#b85c2b}
+/* Poster-style rebuild fixes */
+.clickable-map-card {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+.clickable-map-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 32px rgba(63,49,24,.18);
+}
+.clickable-map-card:focus-visible {
+  outline: 4px solid #b85c2b;
+  outline-offset: 4px;
+}
+.tap-map-hint {
+  margin-top: 10px;
+  font-size: .85rem;
+  font-weight: 900;
+  color: #b85c2b;
+}
+.hero-art-card img,
+.poster img,
+.hero img {
+  object-fit: contain;
+}
