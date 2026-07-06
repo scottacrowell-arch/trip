@@ -9,15 +9,13 @@
 
 <body>
 
-<nav class="top-tabs" aria-label="Main navigation">
-  <a href="index.html">Overview</a>
-  <a href="schedule.html">Schedule</a>
+<nav class="top-tabs app-tabs" aria-label="Main navigation">
+  <a href="index.html">Home</a>
+  <a href="today.html">Today</a>
   <a href="vegas.html">Vegas</a>
-  <a href="nba.html">NBA</a>
   <a href="zion.html">Zion</a>
-  <a href="flying.html">Flight</a>
-  <a href="contacts.html">If Lost</a>
-  <a href="gear.html">Gear</a>
+  <a href="contacts.html">Safety</a>
+  <a href="more.html">More</a>
 </nav>
 
 
@@ -26,23 +24,26 @@
   <div class="hero-copy">
     <p class="kicker">First Two Nights</p>
     <h1>Paris Las Vegas</h1>
-    <p class="lead">Tower lights, café details, fountain views, and first-night photos.</p>
+    <p class="lead">Pool, tower lights, fountains, and first-night photos.</p>
   </div>
 </header>
 
 <main>
   <section class="section">
+    <div class="map-grid"><a class="map-button" href="https://www.google.com/maps/search/?api=1&query=Paris%20Las%20Vegas%2C%20Las%20Vegas%2C%20NV" target="_blank" rel="noopener">📍 Paris Las Vegas</a></div>
+  </section>
+  <section class="section">
     <div class="mission-grid">
+      <label><input type="checkbox" data-key="paris-pool"> Swim at the Paris pool</label>
       <label><input type="checkbox" data-key="paris-tower-photo"> Take a photo with the Eiffel Tower</label>
       <label><input type="checkbox" data-key="paris-lights"> See the tower lights at night</label>
-      <label><input type="checkbox" data-key="paris-fountain"> Find a Bellagio fountain view</label>
-      <label><input type="checkbox" data-key="paris-snack"> Pick a snack or dessert mission</label>
+      <label><input type="checkbox" data-key="paris-fountain"> See Bellagio fountains</label>
     </div>
   </section>
 </main>
 
 <a class="lost-button" href="contacts.html" aria-label="Open family contact information">If Lost</a>
-<footer><a href="vegas.html">Back to Vegas ↑</a></footer>
+<footer><a href="more.html">Back to more ↑</a></footer>
 <script src="script.js"></script>
 </body>
 </html>

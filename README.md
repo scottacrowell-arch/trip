@@ -1,13 +1,17 @@
-# Crowell Family Adventure Guide v4
+# Crowell Family Adventure Guide v6
 
-Clean mobile tabbed version for GitHub Pages.
+Flat GitHub Pages version.
 
-## What changed
-- Home is now a short overview page, not one huge scroll.
-- Top navigation is a two-row mobile tab grid.
-- Flight has its own tab.
-- Schedule, Vegas, and Gear are separate pages.
-- Pages are simplified: big graphic + quick useful tools/checklists.
+## Updates included
+- Cleaner top nav: Home, Today, Vegas, Zion, Safety, More.
+- Added Today page with simple daily cards.
+- Added More page for extra pages.
+- Added one-tap Google Maps buttons.
+- Added heat-safe/free/low-cost tags to Vegas and Shopping.
+- Improved Lincoln's Flight Confidence page.
+- Reduced page text so the site feels more like an app.
+- Return flight remains corrected to Saturday at 11:00 AM.
+- Shopping page and Vegas map are included.
 
 ## Upload instructions
-Upload every file in this ZIP to the root of the `trip` repo. This is the flat version, so images stay in the root folder.
+Upload every file in this ZIP to the root of the `trip` repo. This is the flat version, so images stay in the root folder. No assets folder is needed.

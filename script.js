@@ -36,3 +36,17 @@ document.querySelectorAll('input[type="checkbox"][data-key]').forEach(input => {
     if (target === current) link.classList.add('active');
   });
 })();
+
+
+// v6 app nav active-state cleanup
+(function(){
+  const current = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
+  const morePages = new Set(['shopping.html','nba.html','flying.html','gear.html','paris.html','new-york-new-york.html','shake.html','schedule.html']);
+  document.querySelectorAll('.top-tabs a').forEach(link => {
+    const target = (link.getAttribute('href') || '').split('#')[0].toLowerCase();
+    link.classList.remove('active');
+    if (target === current || (morePages.has(current) && target === 'more.html')) {
+      link.classList.add('active');
+    }
+  });
+})();
