@@ -1,24 +1,13 @@
+# Crowell Family Adventure Guide v4
 
-# Crowell Family Adventure Guide v2
+Clean mobile tabbed version for GitHub Pages.
 
-Mobile-first illustrated family adventure site for the Vegas to Zion trip.
+## What changed
+- Home is now a short overview page, not one huge scroll.
+- Top navigation is a two-row mobile tab grid.
+- Flight has its own tab.
+- Schedule, Vegas, and Gear are separate pages.
+- Pages are simplified: big graphic + quick useful tools/checklists.
 
-## Pages
-- `index.html` — main guide
-- `paris.html` — Paris Las Vegas
-- `new-york-new-york.html` — New York-New York
-- `nba.html` — Lincoln's NBA Scout Board
-- `zion.html` — Zion Field Guide
-- `shake.html` — Black Tap Milkshake Mission
-- `flying.html` — Captain Lincoln's Flight Plan
-- `contacts.html` — If We Get Separated
-
-## Features
-- Mobile-first illustrated layout
-- Persistent checklists using localStorage
-- Tap-to-call and tap-to-email on the contact page
-- Floating "If Lost" button
-- Expandable image viewer for Zion and kid guides
-
-## Important privacy note
-The contact page includes phone numbers and email addresses. If the GitHub Pages site is public, that information is public.
+## Upload instructions
+Upload every file in this ZIP to the root of the `trip` repo. This is the flat version, so images stay in the root folder.

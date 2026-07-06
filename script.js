@@ -26,3 +26,13 @@ document.querySelectorAll('input[type="checkbox"][data-key]').forEach(input => {
   input.checked = localStorage.getItem(key) === 'true';
   input.addEventListener('change', () => localStorage.setItem(key, input.checked));
 });
+
+
+// highlight the current top tab
+(function(){
+  const current = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
+  document.querySelectorAll('.top-tabs a').forEach(link => {
+    const target = (link.getAttribute('href') || '').split('#')[0].toLowerCase();
+    if (target === current) link.classList.add('active');
+  });
+})();
