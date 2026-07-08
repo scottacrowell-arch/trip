@@ -1,0 +1,37 @@
+{
+  "version": "v10-flat-github",
+  "built_at": "2026-07-08T18:56:30",
+  "errors": [],
+  "warnings": [],
+  "structure": "flat root files, no assets folder",
+  "notes": [
+    "All assets were moved to the repository root.",
+    "All HTML image references were updated from assets/... to root-level file names.",
+    "No gear.html or shake.html.",
+    "Flight home remains Saturday at 11:00 AM.",
+    "Vegas and Zion showpiece map pages remain in place."
+  ],
+  "files": [
+    "QA_REPORT.json",
+    "README.md",
+    "captain-lincoln-flight-guide.webp",
+    "contacts.html",
+    "desert-spotter.webp",
+    "family-paris-poster.webp",
+    "flying.html",
+    "index.html",
+    "las-vegas-strip-adventure-map.webp",
+    "more.html",
+    "nba.html",
+    "new-york-new-york.html",
+    "paris.html",
+    "schedule.html",
+    "shopping.html",
+    "style.css",
+    "today.html",
+    "vegas.html",
+    "zion-canyon-adventure-map.webp",
+    "zion-explorer.webp",
+    "zion.html"
+  ]
+}
