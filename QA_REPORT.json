@@ -1,15 +1,15 @@
 {
-  "version": "v10-flat-github",
-  "built_at": "2026-07-08T18:56:30",
+  "version": "v11-flight-wow",
+  "built_at": "2026-07-08T19:17:31",
   "errors": [],
   "warnings": [],
   "structure": "flat root files, no assets folder",
   "notes": [
-    "All assets were moved to the repository root.",
-    "All HTML image references were updated from assets/... to root-level file names.",
+    "flying.html rebuilt as Captain Lincoln\u2019s Flight Mission Briefing.",
+    "Added boarding pass, preflight checklist, timeline, calm plan, achievement badges, sounds decoder, and flight log.",
+    "All assets remain in repository root.",
     "No gear.html or shake.html.",
-    "Flight home remains Saturday at 11:00 AM.",
-    "Vegas and Zion showpiece map pages remain in place."
+    "Flight home remains Saturday at 11:00 AM."
   ],
   "files": [
     "QA_REPORT.json",
