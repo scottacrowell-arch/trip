@@ -1,14 +1,11 @@
-# Crowell Family Adventure Guide v11 Flight Wow Build
+# Crowell Family Adventure Guide v12 Flight Interactive Build
 
 Upload the contents of this folder directly into the GitHub repository root.
 
-Important:
-- No assets folder.
-- All HTML files are in the root.
-- All images are in the root.
-- style.css is in the root.
-- flying.html has been rebuilt as Captain Lincoln’s Flight Mission Briefing.
-- Google Maps buttons remain live links.
-- Black Tap is a Vegas mission card only.
-- No Gear page.
-- No Black Tap page.
+New:
+- Interactive flying.html checklist items.
+- Tappable flight timeline.
+- Unlockable achievement badges.
+- Calm Mode breathing orb.
+- Live Mission Control progress meters.
+- Flat root structure; no assets folder.

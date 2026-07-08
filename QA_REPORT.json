@@ -1,14 +1,15 @@
 {
-  "version": "v11-flight-wow",
-  "built_at": "2026-07-08T19:17:31",
+  "version": "v12-flight-interactive",
+  "built_at": "2026-07-08T21:07:48",
   "errors": [],
   "warnings": [],
   "structure": "flat root files, no assets folder",
   "notes": [
-    "flying.html rebuilt as Captain Lincoln\u2019s Flight Mission Briefing.",
-    "Added boarding pass, preflight checklist, timeline, calm plan, achievement badges, sounds decoder, and flight log.",
-    "All assets remain in repository root.",
-    "No gear.html or shake.html.",
+    "Added interactive checklist states.",
+    "Added tappable mission timeline states.",
+    "Added unlockable achievement badges.",
+    "Added Calm Mode breathing orb.",
+    "Added live mission progress and status meters.",
     "Flight home remains Saturday at 11:00 AM."
   ],
   "files": [

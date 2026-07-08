@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Captain Lincoln’s Flight Guide for the Crowell Family Adventure Guide">
 <title>Captain Lincoln’s Flight Guide</title>
-<link rel="stylesheet" href="style.css?v=v11">
+<link rel="stylesheet" href="style.css?v=v12">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -15,17 +15,10 @@
     <span aria-hidden="true">★</span><div><strong>Crowell Family</strong><small>Adventure Guide</small></div>
   </a>
   <nav class="nav" aria-label="Main navigation">
-    <a class="" href="index.html">Home</a>
-    <a class="" href="today.html">Today</a>
-    <a class="" href="vegas.html">Vegas</a>
-    <a class="" href="zion.html">Zion</a>
-    <a class="" href="contacts.html">Safety</a>
-    <a class="active" href="more.html">More</a>
+    <a href="index.html">Home</a><a href="today.html">Today</a><a href="vegas.html">Vegas</a><a href="zion.html">Zion</a><a href="contacts.html">Safety</a><a class="active" href="more.html">More</a>
   </nav>
 </header>
-
 <main id="main">
-
 <section class="section flight-command">
   <div class="flight-cloud" aria-hidden="true"></div>
   <div class="flight-hero-inner">
@@ -34,21 +27,17 @@
       <h1>Captain Lincoln’s Flight Guide</h1>
       <p class="lead">The flight home is Saturday at 11:00 AM. Nervous is allowed. Captains don’t have to feel fearless — they just follow the plan.</p>
       <div class="flight-strip">
-        <span class="flight-pill">✈️ Flight mission</span>
-        <span class="flight-pill">🧠 Calm plan</span>
-        <span class="flight-pill">🏆 Achievement badges</span>
-        <span class="flight-pill">🧭 Dad is co-pilot</span>
+        <span class="flight-pill">✈️ Flight mission</span><span class="flight-pill">🧠 Calm plan</span><span class="flight-pill">🏆 Achievement badges</span><span class="flight-pill">🧭 Dad is co-pilot</span>
       </div>
+      <div class="flight-progress-wrap" aria-label="Captain Lincoln mission progress"><div class="flight-progress-bar" id="flightProgressBar"></div></div>
+      <div class="flight-progress-label" id="flightProgressLabel">Mission progress: 0%</div>
     </div>
     <aside class="boarding-pass" aria-label="Boarding pass style flight summary">
       <h2>Boarding Pass</h2>
       <div class="pass-row">
-        <div><span class="pass-label">Passenger</span><span class="pass-value">Captain Lincoln</span></div>
-        <div><span class="pass-label">Co-Pilot</span><span class="pass-value">Dad</span></div>
-        <div><span class="pass-label">Departure</span><span class="pass-value">Las Vegas</span></div>
-        <div><span class="pass-label">Destination</span><span class="pass-value">Home</span></div>
-        <div><span class="pass-label">Takeoff</span><span class="pass-value">Saturday • 11:00 AM</span></div>
-        <div><span class="pass-label">Mission</span><span class="pass-value">Calm + Brave</span></div>
+        <div><span class="pass-label">Passenger</span><span class="pass-value">Captain Lincoln</span></div><div><span class="pass-label">Co-Pilot</span><span class="pass-value">Dad</span></div>
+        <div><span class="pass-label">Departure</span><span class="pass-value">Las Vegas</span></div><div><span class="pass-label">Destination</span><span class="pass-value">Home</span></div>
+        <div><span class="pass-label">Takeoff</span><span class="pass-value">Saturday • 11:00 AM</span></div><div><span class="pass-label">Mission</span><span class="pass-value">Calm + Brave</span></div>
       </div>
     </aside>
   </div>
@@ -58,91 +47,71 @@
   <div class="poster"><img src="captain-lincoln-flight-guide.webp" alt="Captain Lincoln's flight guide infographic"></div>
   <div class="stack">
     <div class="flight-panel">
-      <span class="kicker blue">Before Boarding</span>
-      <h2>Captain’s Preflight Checklist</h2>
+      <span class="kicker blue">Before Boarding</span><h2>Captain’s Preflight Checklist</h2>
       <ul class="checklist">
-        <li><span class="box"></span><span>Headphones ready</span></li>
-        <li><span class="box"></span><span>Movie, game, or playlist downloaded</span></li>
-        <li><span class="box"></span><span>Water bottle filled after security</span></li>
-        <li><span class="box"></span><span>Snack or gum ready</span></li>
-        <li><span class="box"></span><span>Tell Dad: “I want the calm plan ready.”</span></li>
+        <li><span class="box"></span><span>Headphones ready</span></li><li><span class="box"></span><span>Movie, game, or playlist downloaded</span></li><li><span class="box"></span><span>Water bottle filled after security</span></li><li><span class="box"></span><span>Snack or gum ready</span></li><li><span class="box"></span><span>Tell Dad: “I want the calm plan ready.”</span></li>
       </ul>
     </div>
     <div class="calm-card">
-      <span class="kicker gold">Calm Mode</span>
-      <h2>Box Breathing</h2>
-      <div class="calm-grid">
-        <div class="calm-box"><strong>4</strong><span>Breathe in</span></div>
-        <div class="calm-box"><strong>4</strong><span>Hold</span></div>
-        <div class="calm-box"><strong>4</strong><span>Breathe out</span></div>
-        <div class="calm-box"><strong>4</strong><span>Hold</span></div>
-      </div>
+      <span class="kicker gold">Calm Mode</span><h2>Box Breathing</h2>
+      <div class="calm-grid"><div class="calm-box"><strong>4</strong><span>Breathe in</span></div><div class="calm-box"><strong>4</strong><span>Hold</span></div><div class="calm-box"><strong>4</strong><span>Breathe out</span></div><div class="calm-box"><strong>4</strong><span>Hold</span></div></div>
     </div>
   </div>
 </section>
 
-<section class="section">
-  <div class="section-title"><h2>Flight Mission Timeline</h2><span class="kicker rust">Step by step</span></div>
-  <div class="mission-steps">
-    <div class="mission-step"><div><h3>Boarding</h3><p>Find the seats, buckle up, headphones nearby, and decide what to watch first.</p></div></div>
-    <div class="mission-step"><div><h3>Pushback</h3><p>The plane may move backward and stop. That is normal. The crew is getting lined up.</p></div></div>
-    <div class="mission-step"><div><h3>Takeoff Roll</h3><p>The plane gets loud and fast. That is engine power doing its job.</p></div></div>
-    <div class="mission-step"><div><h3>Climb</h3><p>Your stomach may feel weird for a few seconds. Keep breathing. This part passes.</p></div></div>
-    <div class="mission-step"><div><h3>Cruise</h3><p>This is the easy zone: movie, game, snack, water, and window check.</p></div></div>
-    <div class="mission-step"><div><h3>Landing</h3><p>Flaps, gear sounds, bumps, and braking are normal. Landing Legend badge unlocked.</p></div></div>
+<section class="section flight-control-panel" aria-label="Interactive calm mode and mission status">
+  <div class="breathing-tool">
+    <div><span class="kicker gold">Interactive</span><h2>Calm Mode</h2><p>Press start and follow the orb. One cycle is enough to reset your body.</p><div class="breath-orb" id="breathOrb">Ready</div><p id="breathInstruction">Tap Start Calm Mode when Lincoln wants a reset.</p><div class="control-buttons"><button class="control-btn primary" id="startBreathing" type="button">Start Calm Mode</button><button class="control-btn" id="stopBreathing" type="button">Reset</button></div></div>
+  </div>
+  <div class="flight-status">
+    <span class="kicker blue">Mission Control</span><h2>Captain Status</h2><p>Tap checklists, timeline steps, and badges to move the mission forward.</p>
+    <div class="status-meter"><div class="status-item"><span>Prep</span><div class="meter-track"><div class="meter-fill" id="prepMeter"></div></div></div><div class="status-item"><span>Flight</span><div class="meter-track"><div class="meter-fill" id="flightMeter"></div></div></div><div class="status-item"><span>Badges</span><div class="meter-track"><div class="meter-fill" id="badgeMeter"></div></div></div></div>
   </div>
 </section>
 
-<section class="section">
-  <div class="section-title"><h2>Achievement Badges</h2><span class="kicker gold">Unlock them</span></div>
-  <div class="badge-board">
-    <div class="achievement"><div class="icon">🎒</div><strong>Boarding Boss</strong><span>Got seated, buckled, and ready.</span></div>
-    <div class="achievement"><div class="icon">🚀</div><strong>Takeoff Champ</strong><span>Handled the loud fast part.</span></div>
-    <div class="achievement"><div class="icon">🌬️</div><strong>Turbulence Pro</strong><span>Stayed calm through bumps.</span></div>
-    <div class="achievement"><div class="icon">🏁</div><strong>Landing Legend</strong><span>Finished the mission strong.</span></div>
-  </div>
-</section>
+<section class="section"><div class="section-title"><h2>Flight Mission Timeline</h2><span class="kicker rust">Tap each step</span></div><div class="mission-steps">
+<div class="mission-step"><div><h3>Boarding</h3><p>Find the seats, buckle up, headphones nearby, and decide what to watch first.</p></div></div>
+<div class="mission-step"><div><h3>Pushback</h3><p>The plane may move backward and stop. That is normal. The crew is getting lined up.</p></div></div>
+<div class="mission-step"><div><h3>Takeoff Roll</h3><p>The plane gets loud and fast. That is engine power doing its job.</p></div></div>
+<div class="mission-step"><div><h3>Climb</h3><p>Your stomach may feel weird for a few seconds. Keep breathing. This part passes.</p></div></div>
+<div class="mission-step"><div><h3>Cruise</h3><p>This is the easy zone: movie, game, snack, water, and window check.</p></div></div>
+<div class="mission-step"><div><h3>Landing</h3><p>Flaps, gear sounds, bumps, and braking are normal. Landing Legend badge unlocked.</p></div></div>
+</div></section>
+
+<section class="section"><div class="section-title"><h2>Achievement Badges</h2><span class="kicker gold">Unlock them</span></div><div class="badge-board">
+<div class="achievement" tabindex="0" role="button" aria-pressed="false" data-badge="Boarding Boss"><div class="icon">🎒</div><strong>Boarding Boss</strong><span>Got seated, buckled, and ready.</span></div>
+<div class="achievement" tabindex="0" role="button" aria-pressed="false" data-badge="Takeoff Champ"><div class="icon">🚀</div><strong>Takeoff Champ</strong><span>Handled the loud fast part.</span></div>
+<div class="achievement" tabindex="0" role="button" aria-pressed="false" data-badge="Turbulence Pro"><div class="icon">🌬️</div><strong>Turbulence Pro</strong><span>Stayed calm through bumps.</span></div>
+<div class="achievement" tabindex="0" role="button" aria-pressed="false" data-badge="Landing Legend"><div class="icon">🏁</div><strong>Landing Legend</strong><span>Finished the mission strong.</span></div>
+</div></section>
 
 <section class="section grid two">
-  <div class="flight-panel">
-    <span class="kicker">What Is Normal?</span>
-    <h2>Plane Sounds Decoder</h2>
-    <ul class="checklist">
-      <li><span class="box"></span><span><strong>Engine roar:</strong> power for takeoff.</span></li>
-      <li><span class="box"></span><span><strong>Dings:</strong> crew messages.</span></li>
-      <li><span class="box"></span><span><strong>Clunks:</strong> wheels, flaps, or normal plane parts moving.</span></li>
-      <li><span class="box"></span><span><strong>Bumps:</strong> air-road bumps, like a car on a rough road.</span></li>
-    </ul>
-  </div>
-  <div class="flight-panel">
-    <span class="kicker blue">Ask Dad</span>
-    <h2>Use These Lines</h2>
-    <ul class="checklist">
-      <li><span class="box"></span><span>“Is this sound normal?”</span></li>
-      <li><span class="box"></span><span>“Can we do the breathing plan?”</span></li>
-      <li><span class="box"></span><span>“Tell me what part of the flight we are in.”</span></li>
-      <li><span class="box"></span><span>“I need a distraction.”</span></li>
-    </ul>
-  </div>
+  <div class="flight-panel"><span class="kicker">What Is Normal?</span><h2>Plane Sounds Decoder</h2><ul class="checklist"><li><span class="box"></span><span><strong>Engine roar:</strong> power for takeoff.</span></li><li><span class="box"></span><span><strong>Dings:</strong> crew messages.</span></li><li><span class="box"></span><span><strong>Clunks:</strong> wheels, flaps, or normal plane parts moving.</span></li><li><span class="box"></span><span><strong>Bumps:</strong> air-road bumps, like a car on a rough road.</span></li></ul></div>
+  <div class="flight-panel"><span class="kicker blue">Ask Dad</span><h2>Use These Lines</h2><ul class="checklist"><li><span class="box"></span><span>“Is this sound normal?”</span></li><li><span class="box"></span><span>“Can we do the breathing plan?”</span></li><li><span class="box"></span><span>“Tell me what part of the flight we are in.”</span></li><li><span class="box"></span><span>“I need a distraction.”</span></li></ul></div>
 </section>
 
-<section class="section">
-  <div class="section-title"><h2>Captain’s Flight Log</h2><span class="kicker blue">Fill it in</span></div>
-  <div class="flight-log">
-    <div class="log-card"><h3>Best View</h3><div class="log-line"></div><div class="log-line"></div><div class="log-line"></div></div>
-    <div class="log-card"><h3>Snack Rating</h3><div class="log-line"></div><div class="log-line"></div><div class="log-line"></div></div>
-    <div class="log-card"><h3>Captain’s Final Score</h3><div class="log-line"></div><div class="log-line"></div><div class="log-line"></div></div>
-  </div>
-</section>
-
-<section class="section captain-oath">
-  <blockquote>“I can be nervous and brave at the same time.”</blockquote>
-  <p>That is the whole mission. Not perfect. Not fearless. Just brave enough to follow the plan.</p>
-</section>
-
+<section class="section"><div class="section-title"><h2>Captain’s Flight Log</h2><span class="kicker blue">Fill it in</span></div><div class="flight-log"><div class="log-card"><h3>Best View</h3><div class="log-line"></div><div class="log-line"></div><div class="log-line"></div></div><div class="log-card"><h3>Snack Rating</h3><div class="log-line"></div><div class="log-line"></div><div class="log-line"></div></div><div class="log-card"><h3>Captain’s Final Score</h3><div class="log-line"></div><div class="log-line"></div><div class="log-line"></div></div></div></section>
+<section class="section captain-oath"><blockquote>“I can be nervous and brave at the same time.”</blockquote><p>That is the whole mission. Not perfect. Not fearless. Just brave enough to follow the plan.</p></section>
 </main>
 <footer class="site-footer">Crowell Family Adventure Guide • Summer 2026</footer>
 </div>
 <a class="float-lost" href="contacts.html">If Lost</a>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>
+(function(){
+ const progressBar=document.getElementById('flightProgressBar'),progressLabel=document.getElementById('flightProgressLabel'),prepMeter=document.getElementById('prepMeter'),flightMeter=document.getElementById('flightMeter'),badgeMeter=document.getElementById('badgeMeter'),toast=document.getElementById('toast');
+ function showToast(m){if(!toast)return;toast.textContent=m;toast.classList.add('show');clearTimeout(window.__flightToastTimer);window.__flightToastTimer=setTimeout(()=>toast.classList.remove('show'),1800);}
+ function pct(a,b){return b?Math.round((a/b)*100):0;}
+ function updateProgress(){const checks=[...document.querySelectorAll('.checklist li')],steps=[...document.querySelectorAll('.mission-step')],badges=[...document.querySelectorAll('.achievement')];const cd=checks.filter(x=>x.classList.contains('done')).length,sd=steps.filter(x=>x.classList.contains('complete')).length,bd=badges.filter(x=>x.classList.contains('unlocked')).length;const p=pct(cd+sd+bd,checks.length+steps.length+badges.length);if(progressBar)progressBar.style.width=p+'%';if(progressLabel)progressLabel.textContent='Mission progress: '+p+'%';if(prepMeter)prepMeter.style.width=pct(cd,checks.length)+'%';if(flightMeter)flightMeter.style.width=pct(sd,steps.length)+'%';if(badgeMeter)badgeMeter.style.width=pct(bd,badges.length)+'%';}
+ document.querySelectorAll('.checklist li').forEach(item=>{item.setAttribute('tabindex','0');item.setAttribute('role','checkbox');item.setAttribute('aria-checked','false');const toggle=()=>{item.classList.toggle('done');item.setAttribute('aria-checked',item.classList.contains('done')?'true':'false');showToast(item.classList.contains('done')?'Checklist item complete':'Checklist item reset');updateProgress();};item.addEventListener('click',toggle);item.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();toggle();}});});
+ document.querySelectorAll('.mission-step').forEach((step,i)=>{step.setAttribute('tabindex','0');step.setAttribute('role','checkbox');step.setAttribute('aria-checked','false');const toggle=()=>{step.classList.toggle('complete');step.setAttribute('aria-checked',step.classList.contains('complete')?'true':'false');showToast(step.classList.contains('complete')?'Flight step '+(i+1)+' complete':'Flight step reset');updateProgress();};step.addEventListener('click',toggle);step.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();toggle();}});});
+ document.querySelectorAll('.achievement').forEach(badge=>{const toggle=()=>{badge.classList.toggle('unlocked');const on=badge.classList.contains('unlocked');badge.setAttribute('aria-pressed',on?'true':'false');showToast(on?'Badge unlocked: '+(badge.dataset.badge||'Achievement'):'Badge reset');updateProgress();};badge.addEventListener('click',toggle);badge.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();toggle();}});});
+ const orb=document.getElementById('breathOrb'),instruction=document.getElementById('breathInstruction'),start=document.getElementById('startBreathing'),stop=document.getElementById('stopBreathing');let timer=null,phaseIndex=0;const phases=[['inhale','Breathe in','Inhale slowly for 4'],['hold','Hold','Hold for 4'],['exhale','Breathe out','Exhale slowly for 4'],['rest','Hold','Hold for 4']];
+ function phase(){if(!orb||!instruction)return;const p=phases[phaseIndex%phases.length];orb.className='breath-orb '+p[0];orb.textContent=p[1];instruction.textContent=p[2];phaseIndex++;}
+ if(start)start.addEventListener('click',()=>{clearInterval(timer);phaseIndex=0;phase();timer=setInterval(phase,4000);showToast('Calm Mode started');});
+ if(stop)stop.addEventListener('click',()=>{clearInterval(timer);timer=null;phaseIndex=0;if(orb){orb.className='breath-orb';orb.textContent='Ready';}if(instruction){instruction.textContent='Tap Start Calm Mode when Lincoln wants a reset.';}showToast('Calm Mode reset');});
+ updateProgress();
+})();
+</script>
 </body>
 </html>
